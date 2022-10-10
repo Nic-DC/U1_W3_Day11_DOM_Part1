@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="text">
+      <h1>H1</h1>
+      <p class="paragraph">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem
+        labore, cum quos vel <span id="span">quasi reprehenderit</span> maiores
+        omnis qui ad, eligendi
+      </p>
+      <h2>H2</h2>
+      <p class="paragraph">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem
+        labore, cum quos vel <span id="span">quasi reprehenderit</span> maiores
+        omnis qui ad, eligendi
+      </p>
+      <h3>H3</h3>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem
+        labore, cum quos vel
+        <span id="span-different">quasi 4 reprehenderit</span> maiores omnis qui
+        ad, eligendi
+      </p>
+
+      <!-- js created elements -->
+      <div class="ul-elements"></div>
+      <div class="img-elements"></div>
+    </div>
+    <div id="buttons">
+      <button onclick="changeSpan()" class="btn">Change span</button>
+      <button onclick="generateUl()" class="btn">
+        Generate an Unordered List
+      </button>
+      <button onclick="generateLi()" class="btn">Generate a List Item</button>
+      <button onclick="generateList(5)" class="btn">
+        Generate an Unordered List with 5 List Items
+      </button>
+      <button onclick="hideText()" class="btn">Hide the text</button>
+      <button onclick="generateImage()" class="btn">Generate image</button>
+      <button onclick="generateImages()" class="btn">Generate images</button>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
